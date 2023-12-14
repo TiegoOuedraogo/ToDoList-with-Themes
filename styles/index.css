@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    color: #333;
+}
+
+#theme-selector {
+    margin: 20px 0;
+}
+
+#new-task-form {
+    margin-bottom: 20px;
+}
+
+#tasks-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    background: #e9e9e9;
+}
+
+.delete-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
